@@ -53,12 +53,6 @@ original_coord_data.each_with_index do |coord_set, i|
   ]
 end
 
-# Generate real strings from new coordinate data
-new_coord_strings = []
-new_coord_data.each do |coord_set|
-  new_coord_strings << "coords=\"#{coord_set[0]},#{coord_set[1]},#{coord_set[2]},#{coord_set[3]}\""
-end
-
 # Replace old coord strings with new one
 html_out = html_in.dup
 original_coord_data.each_with_index do |original_coord_set, i|
