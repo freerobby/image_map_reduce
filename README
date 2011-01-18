@@ -1,0 +1,3 @@
+A command-line ruby script for resizing coord attributes inside image maps.
+
+Presently only works for RECT coordinates.
